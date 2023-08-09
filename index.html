@@ -4,31 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript">
-  var _cio = _cio || [];
-  (function() {
-      var a,b,c;a=function(f){return function(){_cio.push([f].
-      concat(Array.prototype.slice.call(arguments,0)))}};b=["load","identify",
-      "sidentify","track","page"];for(c=0;c<b.length;c++){_cio[b[c]]=a(b[c])};
-      var t = document.createElement('script'),
-          s = document.getElementsByTagName('script')[0];
-      t.async = true;
-      t.id    = 'cio-tracker';
-      t.setAttribute('data-site-id', 'ef6ddea840a394ebac17');
-      t.setAttribute('data-base-url', 'https://customerioforms.com');
-      t.setAttribute('data-use-array-params', 'true');
-
-
-      // To disable in-app messages, remove the two lines below
-      t.setAttribute('data-in-app-org-id', 'undefined');
-      t.setAttribute('data-use-in-app', 'true');
-      // If data-in-app-org-id was not filled above, go to
-      // the following link to find it: https://fly.customer.io/env/last/settings/actions/in_app'
-
-      t.src = 'https://assets.customer.io/assets/track.js';
-
-      s.parentNode.insertBefore(t, s);
-  })();
+   <script>
+!function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"];analytics.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);analytics.push(t);return analytics}};for(var e=0;e<analytics.methods.length;e++){var key=analytics.methods[e];analytics[key]=analytics.factory(key)}analytics.load=function(key,e){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdp.customer.io/v1/analytics-js/snippet/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._writeKey=key;analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.15.3";
+analytics.load("7ac69cfca303d0c6e7cd");
+analytics.page();
+}}();
 </script>
     <title>Мой сайт</title>
     <link rel="stylesheet" href="styles.css"> <!-- Подключите ваш файл стилей -->
